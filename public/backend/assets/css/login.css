@@ -1,0 +1,326 @@
+body {
+    background: url("../img/login-background.jpg") repeat 0 0;
+    font-family: 'Rubik', sans-serif!important;
+}
+
+input[type=checkbox].Checkbox_normal {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.13);
+    border: solid 2px #009877;
+}
+
+.Password-Icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.User-Icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.logo_brac{
+    height: 60px !important;
+}
+
+.login-page {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.login-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.login-page .login-box .left-item {
+    margin-top: 5%;
+}
+
+.login-page .login-box .left-item img {
+    height: 350px;
+    /* width: 500px; */
+}
+
+.login-page .login-box .left-item .application-name h2 {
+    color: #576271;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.login-page .login-box .left-item .application-name p {
+    color: #686C72;
+    font-size: 20px;
+}
+
+.login-page .login-box .container .right-item {
+    margin-top: 120px;
+}
+
+.login-page .login-box .container .right-item .card .card-body {
+    border: 1px solid #009877;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.login-page .login-box .container .right-item .card .card-body h2 {
+    text-align: center;
+    color: #009877;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 5px;
+}
+
+.login-page .login-box .container .right-item .card .card-body p {
+    text-align: center;
+    color: #009877;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.login-page .login-box .container .right-item .card .card-body .forgot-password {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.login-page .login-box .container .right-item .card .card-body .remember label {
+    color: #5F6269;
+    font-family: 'Rubik', sans-serif;
+}
+
+.login-page .login-box .container .right-item .card .card-body .icheck-primary>input:first-child:checked+label::before {
+    background-color: #009877;
+    border-color: #009877;
+}
+
+.login-page .login-box .container .right-item .card .card-body .login-submit {
+    margin-top: 20px;
+}
+
+.login-page .login-box .container .right-item .card .card-body .login-submit button {
+    border: 1px solid #009877;
+    background: #009877;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    transition: all linear 0.3s;
+}
+
+.login-page .login-box .container .right-item .card .card-body .login-submit button:hover {
+    border: 1px solid #009877;
+    background: #fff;
+    color: #009877;
+}
+
+.login-card-body form input,
+.login-card-body form input::placeholder {
+    font-size: 13px;
+}
+
+.login-page .login-box .container .right-item .card .card-body .forgot-password a {
+    color: #5F6269;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+}
+
+.login-page .login-box .container .right-item .card .card-body .input-group .input-group-append .input-group-text span {
+    color: #009877;
+}
+
+.login-page .login-box .container .right-item .card .card-body .input-group input::placeholder {
+    color: #8C939E;
+}
+
+.login-page .login-box .container .right-item .card .card-body p span {
+    font-weight: 600;
+}
+
+.login-page .login-box .container .right-item .card {
+    border-radius: 10px;
+    background: transparent;
+}
+
+.login-footer .footer-copyright p {
+    font-weight: 600;
+    font-size: 13px;
+    color: #009877;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.total-item {
+    min-height: calc(100vh - calc(3.5rem + 1px) - calc(3.5rem + 1px));
+}
+
+
+/* @media (min-width: 100px) and (max-width: 991px) {
+    .login-page{
+        height: 1200px;
+    }
+} */
+
+
+/*  */
+
+.card .card-body {
+    overflow: hidden;
+}
+
+.login-page .login-box .container .right-item {
+    margin-top: 5%;
+}
+
+.container {
+    max-width: 80%;
+}
+
+input[type="checkbox"] {
+    visibility: hidden;
+}
+
+label {
+    cursor: pointer;
+}
+
+input[type="checkbox"]+label:before {
+    border: 1px solid #009877;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: .40em .28em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+}
+
+input[type="checkbox"]:checked+label:before {
+    background: #009877;
+    color: white;
+    content: "\2713";
+    text-align: center;
+}
+
+input[type="checkbox"]:checked+label:after {
+    font-weight: bold;
+}
+
+input[type="checkbox"]:focus+label::before {
+    outline: rgb(59, 153, 252) auto 5px;
+}
+
+.login-page .login-box .login-first-row {
+    margin-top: 30px;
+}
+
+.login-page .login-box .login-first-row .left-item {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.login-page .login-box .login-first-row .right-item {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.login-page .login-box .login-first-row .right-item .card {
+    margin-top: 20px;
+}
+
+.login-page .login-box .login-first-row .right-item .card .login-card-body {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.login-page .login-box .login-first-row .right-item .card .login-card-body form {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.remember {
+    margin-top: 18px;
+}
+
+.forgot-password {
+    margin-top: 18px;
+}
+
+.bottom-item {
+    padding-top: 40px;
+}
+
+.footer-copyright {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #576271;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+input.form-control,
+input.form-control {
+    border-radius: 5px!important;
+}
+
+@media (min-width: 300px) and (max-width: 575px) {
+    .login-page .login-box .container .right-item .card .card-body .forgot-password {
+        margin-left: 15px;
+    }
+    .login-page .login-box .left-item img {
+        height: unset;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 510px) {
+    .login-page {
+        min-height: 800px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .login-page .login-box .container .right-item .card .card-body .forgot-password a {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .login-page .login-box .container .right-item .card .card-body .forgot-password {
+        margin-left: 15px;
+    }
+}
+
+
+/*  */
+
+.password_eye {
+    position: absolute;
+    right: 6px;
+    top: 9px;
+    color: #ec008c;
+    cursor: pointer;
+    z-index: 1111;
+}

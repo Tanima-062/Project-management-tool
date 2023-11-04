@@ -1,0 +1,153 @@
+body { background: url("../img/sso_background.png") repeat 0 0; }
+.logo_brac {
+    height: 40px;
+    margin-left: 55% ;
+}
+.login-page{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.login-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.login-page .login-box .left-item{
+    margin-top: 3%;
+}
+.login-page .login-box .left-item img{
+    height: 400px;
+    width: 500px;
+}
+.login-page .login-box .left-item .application-name h2{
+    color: #576271;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.login-page .login-box .left-item .application-name p{
+    color: #686C72;
+    font-size: 20px;
+}
+.login-page .login-box .container .right-item{
+    margin-top: 100px;
+}
+.login-page .login-box .container .right-item .card .card-body{
+    border: 1px solid #EB078E;
+    border-radius: 10px;
+    background: transparent;
+}
+.login-page .login-box .container .right-item .card .card-body h2{
+    text-align: center;
+    color: #EB078E;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+.login-page .login-box .container .right-item .card .card-body p{
+    text-align: center;
+    color: #EB078E;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 60px;
+}
+.login-page .login-box .container .right-item .card .card-body .forgot-password{
+    text-align: right;
+    margin-top: 5px;
+}
+.login-page .login-box .container .right-item .card .card-body .remember label{
+    color: #5F6269;
+}
+.login-page .login-box .container .right-item .card .card-body .icheck-primary>input:first-child:checked+label::before {
+    background-color: #EB078E;
+    border-color: #EB078E;
+}
+.login-page .login-box .container .right-item .card .card-body .login-submit{
+    margin-top: 20px;
+}
+.login-page .login-box .container .right-item .card .card-body .login-submit button{
+    border: none;
+    background: rgb(255,0,132);
+    background: linear-gradient(180deg, rgba(255,0,132,1) 0%, rgba(51,0,27,1) 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.login-page .login-box .container .right-item .card .card-body .forgot-password a{
+    color: #5F6269;
+}
+.login-page .login-box .container .right-item .card .card-body .input-group .input-group-append .input-group-text span{
+    color: #EB078E;
+}
+.login-page .login-box .container .right-item .card .card-body .input-group input::placeholder{
+    color: #8C939E;
+}
+.login-page .login-box .container .right-item .card .card-body p span{
+    font-weight: 600;
+}
+.login-page .login-box .container .right-item .card{
+    border-radius: 10px;
+    background: transparent;
+}
+.login-footer .footer-copyright p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #EB078E;
+    text-align: center;
+}
+#footer{
+    /* position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px; */
+}
+.total-item{
+    min-height: calc(100vh - calc(3.5rem + 1px) - calc(3.5rem + 1px));
+}
+@media (min-width: 100px) and (max-width: 991px) {
+    .login-page{
+        height: 1000px;
+    }
+}
+.Task-Management-Platform{
+    width: 638px;
+    -webkit-text-stroke:  rgba(0, 0, 0, 0);
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: -1.47px;
+    text-align: center;
+    color: #1a1a1a;
+}
+.SSO-Login {
+    color:white;
+    width: 15%;
+    height: 40%;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #ec008c;
+    margin-left: 30%;
+  }
+  .Gmail-Login {
+    color:#ec008c;
+    width: 15%;
+    height: 40%;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    border: solid 1px #ec008c;
+    background-color: white;
+    text-decoration: none;
+  }
+  .Gmail-Login:hover {
+    background-color: #ec008c; /* Green */
+    color: white;
+    text-decoration: none;
+  }
